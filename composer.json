@@ -1,0 +1,9 @@
+{
+  "name": "drupal/yaml_editor",
+  "description": "Adds an editor for YAML configuration textareas.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "require": {
+      "drupal/core": "^9 || ^10"
+  }
+}
