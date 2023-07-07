@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\yaml_editor\Plugin\Field\FieldWidget\YamlEditorWidget.
- */
-
 namespace Drupal\yaml_editor\Plugin\Field\FieldWidget;
 
 use Drupal\Core\Field\FieldItemListInterface;

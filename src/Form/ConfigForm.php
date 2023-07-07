@@ -1,19 +1,12 @@
 <?php
 
-/**
- * @file
- * Contains Drupal\yaml_editor\Form\ConfigForm.
- */
-
 namespace Drupal\yaml_editor\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Class ConfigForm.
- *
- * @package Drupal\linked_field\Form
+ * Configuration form.
  */
 class ConfigForm extends ConfigFormBase {
 
@@ -22,7 +15,7 @@ class ConfigForm extends ConfigFormBase {
    */
   protected function getEditableConfigNames() {
     return [
-      'yaml_editor.config'
+      'yaml_editor.config',
     ];
   }
 
@@ -47,13 +40,6 @@ class ConfigForm extends ConfigFormBase {
     ];
 
     return parent::buildForm($form, $form_state);
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function validateForm(array &$form, FormStateInterface $form_state) {
-    parent::validateForm($form, $form_state);
   }
 
   /**

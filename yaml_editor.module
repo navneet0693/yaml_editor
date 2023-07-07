@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @file
+ * Contains hooks.
+ */
+
+/**
  * Implements hook_page_attachments().
  */
 function yaml_editor_page_attachments(array &$attachments) {

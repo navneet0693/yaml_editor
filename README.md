@@ -10,11 +10,13 @@
 
 ### Field widget
 
-You can use the YAML editor for _Text (plain, long)_ fields, simply go to _Manage form display_ and select _Textarea with YAML editor_.
+You can use the YAML editor for _Text (plain, long)_ fields, simply go to
+_Manage form display_ and select _Textarea with YAML editor_.
 
 ### Code
 
-When you need an editor for your YAML files add a `data-yaml-editor` to you textarea like:
+When you need an editor for your YAML files add a `data-yaml-editor` to you
+textarea like:
 
 ```php
 $form['config'] = [
@@ -26,7 +28,8 @@ $form['config'] = [
 
 ## Supporters :innocent:
 
-Here are some module which are already implementing the `data-yaml-editor` attribute:
+Here are some module which are already implementing the `data-yaml-editor`
+attribute:
 
 * [Linked Field](https://www.drupal.org/project/linked_field)
 * [Menu Link Attributes](https://www.drupal.org/project/menu_link_attributes)
